@@ -12,11 +12,11 @@ export const skills = {
     { name: "JavaScript", level: 80 },
     { name: "React", level: 75 },
     { name: "Node.js", level: 75 },
-    { name: "Express", level: 70 },
+    { name: "Express", level: 80 },
     { name: "MongoDB", level: 65 },
-    { name: "MySQL", level: 65 },
+    { name: "MySQL", level: 75 },
   ],
-  learning: ["Next.js", "TypeScript", "Nest.js"],
+  learning: ["Next.js", "TypeScript", "Nest.js", "PHP", "Laravel"],
 };
 
 export const education = [

@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/[0.06]" : "bg-transparent"}`}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <span className="font-bold text-lg text-white font-mono">agil<span className="text-red-500">.dev</span></span>
+        <span className="font-bold text-lg text-white font-mono">MAgS<span className="text-red-500">.dev</span></span>
         <ul className="hidden md:flex gap-1">
           {links.map((l) => (
             <li key={l.id}>
