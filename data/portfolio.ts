@@ -34,4 +34,12 @@ export const projects: {
   tech: string[];
   github?: string;
   demo?: string;
-}[] = [];
+}[] = [
+  {
+    title: "Mini E-Commerce",
+    description: "Aplikasi e-commerce dengan fitur pembeli & penjual. Penjual bisa tambah/edit/hapus produk, pembeli bisa belanja dan checkout.",
+    tech: ["Next.js", "TypeScript", "NestJS", "Tailwind CSS"],
+    github: "https://github.com/MAgSAsli/mini-ecommerce",
+    demo: "https://mini-ecommerce-mu-ten.vercel.app",
+  },
+];
