@@ -103,6 +103,6 @@ export const projects: {
     title: "Node-Auth-MongoDB",
     description: "RESTful backend API untuk sistem autentikasi pengguna. Implementasi registrasi & login dengan bcrypt hashing, JWT authentication, dan protected routes.",
     tech: ["Node.js", "Express.js", "MongoDB", "JWT", "bcrypt"],
-    github: "https://github.com/MAgSAsli/node-auth-mongodb",
+    github: "https://github.com/MAgSAsli/Authentication-with-MongoDB",
   },
 ];
