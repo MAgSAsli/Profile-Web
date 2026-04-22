@@ -31,7 +31,7 @@ export const education = [
   {
     school: "SMK Negeri 3 Surabaya",
     degree: "Teknik Audio Video / Elektronika",
-    year: "2020 - 2023",
+    year: "2017 - 2020",
     description: "Mempelajari dasar-dasar elektronika, teknik audio video, dan pemrograman.",
   },
 ];
