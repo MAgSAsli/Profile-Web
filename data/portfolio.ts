@@ -11,22 +11,26 @@ export const profile = {
 
 export const skills = {
   current: [
-    { name: "JavaScript", level: 80 },
-    { name: "TypeScript", level: 75 },
-    { name: "React.js", level: 75 },
-    { name: "Next.js", level: 75 },
-    { name: "Tailwind CSS", level: 80 },
-    { name: "Node.js", level: 75 },
-    { name: "Express.js", level: 80 },
-    { name: "NestJS", level: 70 },
-    { name: "MongoDB", level: 65 },
-    { name: "MySQL", level: 75 },
-    { name: "Supabase (PostgreSQL)", level: 70 },
-    { name: "PHP", level: 70 },
-    { name: "Laravel", level: 70 },
-    { name: "JWT & bcrypt", level: 75 },
+    { name: "JavaScript", level: 80, icon: "SiJavascript" },
+    { name: "TypeScript", level: 75, icon: "SiTypescript" },
+    { name: "React.js", level: 75, icon: "SiReact" },
+    { name: "Next.js", level: 75, icon: "SiNextdotjs" },
+    { name: "Tailwind CSS", level: 80, icon: "SiTailwindcss" },
+    { name: "Node.js", level: 75, icon: "SiNodedotjs" },
+    { name: "Express.js", level: 80, icon: "SiExpress" },
+    { name: "NestJS", level: 70, icon: "SiNestjs" },
+    { name: "MongoDB", level: 65, icon: "SiMongodb" },
+    { name: "MySQL", level: 75, icon: "SiMysql" },
+    { name: "Supabase (PostgreSQL)", level: 70, icon: "SiSupabase" },
+    { name: "PHP", level: 70, icon: "SiPhp" },
+    { name: "Laravel", level: 70, icon: "SiLaravel" },
+    { name: "JWT & bcrypt", level: 75, icon: "SiJsonwebtokens" },
   ],
-  learning: ["Docker", "Redis", "CI/CD"],
+  learning: [
+    { name: "Docker", icon: "SiDocker" },
+    { name: "Redis", icon: "SiRedis" },
+    { name: "CI/CD", icon: "SiGithubactions" },
+  ],
 };
 
 export const education = [

@@ -1,6 +1,32 @@
 "use client";
 import { motion } from "framer-motion";
 import { skills } from "@/data/portfolio";
+import {
+  SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiTailwindcss,
+  SiNodedotjs, SiExpress, SiNestjs, SiMongodb, SiMysql,
+  SiSupabase, SiPhp, SiLaravel, SiJsonwebtokens,
+  SiDocker, SiRedis, SiGithubactions,
+} from "react-icons/si";
+
+const iconMap: Record<string, React.ReactNode> = {
+  SiJavascript:     <SiJavascript />,
+  SiTypescript:     <SiTypescript />,
+  SiReact:          <SiReact />,
+  SiNextdotjs:      <SiNextdotjs />,
+  SiTailwindcss:    <SiTailwindcss />,
+  SiNodedotjs:      <SiNodedotjs />,
+  SiExpress:        <SiExpress />,
+  SiNestjs:         <SiNestjs />,
+  SiMongodb:        <SiMongodb />,
+  SiMysql:          <SiMysql />,
+  SiSupabase:       <SiSupabase />,
+  SiPhp:            <SiPhp />,
+  SiLaravel:        <SiLaravel />,
+  SiJsonwebtokens:  <SiJsonwebtokens />,
+  SiDocker:         <SiDocker />,
+  SiRedis:          <SiRedis />,
+  SiGithubactions:  <SiGithubactions />,
+};
 
 export default function Skills() {
   return (
@@ -19,17 +45,20 @@ export default function Skills() {
           <p className="text-zinc-500">Teknologi yang saya kuasai dan sedang dipelajari.</p>
         </motion.div>
 
-        <div className="space-y-6 mb-14">
+        <div className="space-y-5 mb-14">
           {skills.current.map((s, i) => (
             <motion.div
               key={s.name}
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.08 }}
+              transition={{ delay: i * 0.06 }}
             >
-              <div className="flex justify-between mb-2">
-                <span className="text-zinc-300 font-medium text-sm">{s.name}</span>
+              <div className="flex justify-between items-center mb-2">
+                <div className="flex items-center gap-2 text-zinc-300 font-medium text-sm">
+                  <span className="text-red-400 text-lg">{iconMap[s.icon]}</span>
+                  {s.name}
+                </div>
                 <span className="text-red-400 font-mono text-sm">{s.level}%</span>
               </div>
               <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
@@ -37,7 +66,7 @@ export default function Skills() {
                   initial={{ width: 0 }}
                   whileInView={{ width: `${s.level}%` }}
                   viewport={{ once: true }}
-                  transition={{ duration: 1, delay: i * 0.08, ease: "easeOut" }}
+                  transition={{ duration: 1, delay: i * 0.06, ease: "easeOut" }}
                   className="h-full bg-gradient-to-r from-red-600 to-red-400 rounded-full"
                 />
               </div>
@@ -55,10 +84,11 @@ export default function Skills() {
           <div className="flex flex-wrap justify-center gap-3">
             {skills.learning.map((s) => (
               <span
-                key={s}
-                className="px-4 py-1.5 rounded-lg border border-red-500/30 text-red-400 text-sm font-medium bg-red-500/5"
+                key={s.name}
+                className="flex items-center gap-2 px-4 py-1.5 rounded-lg border border-red-500/30 text-red-400 text-sm font-medium bg-red-500/5"
               >
-                {s}
+                <span className="text-base">{iconMap[s.icon]}</span>
+                {s.name}
               </span>
             ))}
           </div>
