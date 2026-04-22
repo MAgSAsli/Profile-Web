@@ -15,8 +15,10 @@ export const skills = {
     { name: "Express", level: 80 },
     { name: "MongoDB", level: 65 },
     { name: "MySQL", level: 75 },
+    { name: "PHP", level: 70 },
+    { name: "Laravel", level: 70 },
   ],
-  learning: ["Next.js", "TypeScript", "Nest.js", "PHP", "Laravel"],
+  learning: ["Next.js", "TypeScript", "Nest.js"],
 };
 
 export const education = [
@@ -41,5 +43,11 @@ export const projects: {
     tech: ["Next.js", "TypeScript", "NestJS", "Tailwind CSS"],
     github: "https://github.com/MAgSAsli/mini-ecommerce",
     demo: "https://mini-ecommerce-mu-ten.vercel.app",
+  },
+  {
+    title: "Cashier-Learn",
+    description: "Aplikasi kasir berbasis web dengan fitur manajemen produk, transaksi, laporan penjualan, manajemen user, dan cetak struk.",
+    tech: ["Laravel", "Blade", "Bootstrap 5", "PostgreSQL", "Supabase"],
+    github: "https://github.com/MAgSAsli/Cashier-App",
   },
 ];
