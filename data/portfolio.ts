@@ -1,7 +1,7 @@
 export const profile = {
   name: "Moch. Agil Sugiarto",
   role: "Full Stack Developer",
-  bio: "Mahasiswa Teknik Informatika semester 7 yang hampir menyelesaikan studi S1, dengan fokus pada pengembangan web Full Stack. Berpengalaman membangun aplikasi web menggunakan React, Next.js, TypeScript di sisi frontend, serta Node.js, Express, NestJS, dan MongoDB/MySQL di sisi backend. Aktif membangun proyek portfolio nyata dan memiliki pengalaman organisasi sebagai Wakil Ketua UKM Coders.",
+  bio: "Mahasiswa Teknik Informatika semester 7 yang hampir menyelesaikan studi S1, dengan fokus pada pengembangan web Full Stack. Berpengalaman membangun aplikasi web menggunakan React, Next.js, TypeScript di sisi frontend, serta Node.js, Express, NestJS, dan MongoDB/MySQL di sisi backend. Aktif membangun proyek portfolio nyata.",
   email: "mochamadagils@gmail.com",
   github: "https://github.com/MAgSAsli",
   linkedin: "https://www.linkedin.com/in/mochamad-agil-sugiarto",
