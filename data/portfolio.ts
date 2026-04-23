@@ -99,9 +99,10 @@ export const projects: {
   },
   {
     title: "Cashier-Learn",
-    description: "Aplikasi kasir berbasis web dengan fitur manajemen produk, transaksi, laporan penjualan, manajemen user, dan cetak struk.",
+    description: "Aplikasi kasir berbasis web dengan autentikasi role Admin & Kasir. Fitur meliputi manajemen produk, kategori, user, transaksi dengan keranjang belanja interaktif, cetak struk, dan laporan penjualan dengan filter tanggal.",
     tech: ["Laravel", "Blade", "Bootstrap 5", "PostgreSQL", "Supabase"],
     github: "https://github.com/MAgSAsli/Cashier-App",
+    demo: "https://aea4d347-0b32-4579-916d-122e3f236d5f-00-cwpn15hd710i.pike.replit.dev/",
   },
   {
     title: "Node-Auth-MongoDB",
